@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linden House — Fine Art Gallery</title>
+  <meta name="description" content="Linden House is a small fine art gallery representing six painters working in oil, acrylic, watercolor, gouache, charcoal and mixed media." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="index.html">
+
+  <header id="site-header" class="site-header"></header>
+
+  <main>
+    <section class="home-hero">
+      <div class="wrap">
+        <div class="home-hero-copy">
+          <p class="eyebrow">Bristol &middot; Est. 2011</p>
+          <h1>Paintings worth&nbsp;living with.</h1>
+          <p class="lede">Linden House shows a small, changing collection of original paintings and works on paper from six living artists — each piece bought directly from the studio, with no editions and no reproductions.</p>
+          <div class="cta-row">
+            <a href="#gallery" class="btn btn-primary">Browse the Collection</a>
+            <a href="how-to-buy.html" class="btn">How to Buy</a>
+          </div>
+        </div>
+        <div class="home-hero-art">
+          <img src="images/art-01.svg" alt="Low Country Light, an oil landscape by Mara Solberg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="filter-bar" id="gallery">
+      <div class="wrap">
+        <div class="filter-field">
+          <label for="filter-medium">Medium</label>
+          <select id="filter-medium"></select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-subject">Subject</label>
+          <select id="filter-subject"></select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-size">Size</label>
+          <select id="filter-size"></select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-artist">Artist</label>
+          <select id="filter-artist"></select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-price">Price</label>
+          <select id="filter-price"></select>
+        </div>
+        <button class="filter-clear" id="filter-clear">Clear filters</button>
+        <p class="filter-count" id="filter-count"></p>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="wrap">
+        <div class="gallery-grid" id="gallery-grid"></div>
+        <p class="no-results" id="no-results">No works match those filters. Try clearing one or two and browsing again.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
