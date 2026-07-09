@@ -1,4 +1,4 @@
-# Linden House — Brand Guide
+# Testing Art Gallery — Brand Guide
 
 **Concept:** A small, considered fine-art gallery. Editorial, warm, unhurried —
 like a well-printed catalogue, not a marketplace.

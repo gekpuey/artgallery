@@ -1,4 +1,4 @@
-/* Linden House — shared header/footer, injected on every page */
+/* Testing Art Gallery — shared header/footer, injected on every page */
 
 const NAV_LINKS = [
   { href: "about.html", label: "About Us" },
@@ -17,7 +17,7 @@ function renderHeader() {
 
   document.getElementById("site-header").innerHTML = `
     <div class="wrap">
-      <a href="index.html" class="wordmark">Linden House<span>Fine Art Gallery</span></a>
+      <a href="index.html" class="wordmark">Testing Art Gallery</a>
       <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span>
       </button>
@@ -37,7 +37,7 @@ function renderFooter() {
   document.getElementById("site-footer").innerHTML = `
     <div class="wrap">
       <div class="footer-col">
-        <h4>Linden House</h4>
+        <h4>Testing Art Gallery</h4>
         <p>142 Aldergate Row<br>Bristol, BS1 4QP</p>
       </div>
       <div class="footer-col">
@@ -57,7 +57,7 @@ function renderFooter() {
       </div>
     </div>
     <div class="wrap footer-bottom">
-      © ${new Date().getFullYear()} Linden House Fine Art Gallery. All works shown by kind permission of the artists.
+      © ${new Date().getFullYear()} Testing Art Gallery. All works shown by kind permission of the artists.
     </div>
   `;
 }

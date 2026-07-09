@@ -1,4 +1,4 @@
-/* Linden House — landing page gallery + filters */
+/* Testing Art Gallery — landing page gallery + filters */
 
 function populateSelect(id, values, placeholder) {
   const select = document.getElementById(id);

@@ -1,4 +1,4 @@
-/* Linden House — artwork detail page */
+/* Testing Art Gallery — artwork detail page */
 
 function renderArtwork() {
   const params = new URLSearchParams(window.location.search);
@@ -14,11 +14,11 @@ function renderArtwork() {
         <p class="lede" style="margin-top:16px;">It may have sold or been de-listed from the current collection.</p>
       </div>
     `;
-    document.title = "Artwork not found — Linden House";
+    document.title = "Artwork not found — Testing Art Gallery";
     return;
   }
 
-  document.title = `${art.title} — Linden House`;
+  document.title = `${art.title} — Testing Art Gallery`;
 
   root.innerHTML = `
     <div class="wrap">
